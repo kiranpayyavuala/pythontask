@@ -1,5 +1,5 @@
 pipeline {
- agent any
+ agent { label 'jenkinsslave' }
  environment {
  AWS_ACCOUNT_ID="947403847382"
  AWS_DEFAULT_REGION="ap-south-1" 
